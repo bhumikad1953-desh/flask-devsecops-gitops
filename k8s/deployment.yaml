@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: flask-devsecops-app
-        image: bhumikadesh/flask-devsecops-app:v13
+        image: bhumikadesh/flask-devsecops-app:v14
         imagePullPolicy: Always
         ports:
         - containerPort: 5000
